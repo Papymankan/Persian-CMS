@@ -1,0 +1,14 @@
+.ErrorBox{
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.ErrorBox>h2{
+    font-size: 34px;
+}

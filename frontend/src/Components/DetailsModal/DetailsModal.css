@@ -1,0 +1,37 @@
+.DetailsModalBtns {
+    padding: 7px 20px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    background: var(--white-50);
+    color: black;
+    cursor: pointer;
+}
+.ProductDetailContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.HeadRow , .BodyRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.HeadRow>span , .BodyRow>span{
+    font-size: 21px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 ;
+}
+.HeadRow>span , .BodyRow>span{
+    border-left: 3px solid var(--white-50);
+}
+.HeadRow>span:last-child , .BodyRow>span:last-child{
+    border-left: 0;
+}

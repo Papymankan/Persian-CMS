@@ -1,0 +1,12 @@
+
+.HomeTitle{
+    width: 100%;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+    padding: 40px 0;
+    font-size: 40px;
+}
